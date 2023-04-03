@@ -7,9 +7,9 @@ This is the first assignment in Operating Systems, which wants us to do the foll
 
 *We expect to use these two programs (producer and consumer) like this:*
 
-*$ gcc producer.c -pthread -lrt -o producer
-*$ gcc consumer.c -pthread -lrt -o consumer
-*$ ./producer & ./consumer &
+*$ gcc producer.c -pthread -lrt -o producer*
+*$ gcc consumer.c -pthread -lrt -o consumer*
+*$ ./producer & ./consumer &*
 
 
 
