@@ -20,7 +20,6 @@ Example of how long it will go for:
 ![image](https://user-images.githubusercontent.com/31938399/229652441-a8dd4835-2b87-4528-a6a0-1191d3678a02.png)
 
 
-**This process goes on forever, as the producer does not have a set limit for the amount of items it will produce. The producer will stop if there are 2 items in the table, and wait for the consumer to get rid of them. If the consumer is going too fast, the consumer will pause and wait for the table to be populated.
-**
+**This process goes on forever, as the producer does not have a set limit for the amount of items it will produce. The producer will stop if there are 2 items in the table, and wait for the consumer to get rid of them. If the consumer is going too fast, the consumer will pause and wait for the table to be populated.**
 
 You can execute this program as seen above, by running the commands for compiling both the producer and consumer file, then executing both. This was developed on Ubuntu Linux, though should be able to run on any Linux distribution.
