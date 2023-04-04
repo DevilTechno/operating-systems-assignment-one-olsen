@@ -11,5 +11,15 @@ This is the first assignment in Operating Systems, which wants us to do the foll
 *$ gcc consumer.c -pthread -lrt -o consumer*
 *$ ./producer & ./consumer &*
 
+The result of this project from what I have developed looks like this:
+
+![image](https://user-images.githubusercontent.com/31938399/229651982-589e534b-5b88-4d6b-a639-81c15e3c3f9a.png)
+
+Example of how long it will go for:
+![image](https://user-images.githubusercontent.com/31938399/229652441-a8dd4835-2b87-4528-a6a0-1191d3678a02.png)
 
 
+**This process goes on forever, as the producer does not have a set limit for the amount of items it will produce. The producer will stop if there are 2 items in the table, and wait for the consumer to get rid of them. If the consumer is going too fast, the consumer will pause and wait for the table to be populated.
+**
+
+You can execute this program as seen above, by running the commands for compiling both the producer and consumer file, then executing both. This was developed on Ubuntu Linux, though should be able to run on any Linux distribution.
